@@ -1,0 +1,13 @@
+﻿@using ShopTD.Models
+@model List<Menu>
+
+@foreach (var item in Model.Where(n => n.Parent_ID == 0))
+{
+    <li class="nav-item">
+        <a href="#" class="nav-link">@item.Name</a>        
+        <ul class="nav menu border rounded-bottom">
+            @Html.Action("Childrens_menu_Partial", "Menu", new { parent_id = item.Menu_ID })
+        </ul>
+    </li>
+}
+

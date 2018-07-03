@@ -1,29 +1,6 @@
 ﻿<nav class="bg-dark">
     <ul class="nav menu">
-        <li class="nav-item">
-            <a href="#" class="nav-link">Áo thun</a>
-            <ul class="nav menu border rounded-bottom">
-                <li class="nav-item border border-info">
-                    <a href="#" class="nav-link">Áo thun nam</a>
-                    <ul class="nav menu">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Áo thun có cổ</a>
-                            <ul class="nav menu">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Áo thun có cổ</a>
-                                </li>
-                                <li class="nav-item"><a href="#" class="nav-link">Áo thun không cổ</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="#" class="nav-link">Áo thun không cổ</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item border border-info"><a href="#" class="nav-link">Áo thun nữ</a></li>
-            </ul>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link">Áo khoác</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Giày</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Phụ kiện</a></li>
+        @Html.Action("Parents_menu_Partial", "Menu")
     </ul>
 </nav>
 

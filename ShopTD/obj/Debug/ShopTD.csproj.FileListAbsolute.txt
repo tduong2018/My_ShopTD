@@ -91,3 +91,7 @@ C:\Users\lopch\Desktop\My_ShopTD\ShopTD\obj\Debug\ShopTD.csproj.CoreCompileInput
 C:\Users\lopch\Desktop\My_ShopTD\ShopTD\obj\Debug\ShopTD.csproj.CopyComplete
 C:\Users\lopch\Desktop\My_ShopTD\ShopTD\obj\Debug\ShopTD.dll
 C:\Users\lopch\Desktop\My_ShopTD\ShopTD\obj\Debug\ShopTD.pdb
+C:\Users\lopch\Desktop\My_ShopTD\ShopTD\bin\EntityFramework.dll
+C:\Users\lopch\Desktop\My_ShopTD\ShopTD\bin\EntityFramework.SqlServer.dll
+C:\Users\lopch\Desktop\My_ShopTD\ShopTD\bin\EntityFramework.xml
+C:\Users\lopch\Desktop\My_ShopTD\ShopTD\bin\EntityFramework.SqlServer.xml
