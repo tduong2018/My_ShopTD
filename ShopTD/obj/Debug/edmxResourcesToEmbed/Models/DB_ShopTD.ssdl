@@ -9,7 +9,19 @@
     <Property Name="Url" Type="nvarchar(max)" />
     <Property Name="Parent_ID" Type="int" Nullable="false" />
   </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Describe" Type="nvarchar(max)" />
+  </EntityType>
   <EntityContainer Name="DB_ShopTDModelStoreContainer">
     <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

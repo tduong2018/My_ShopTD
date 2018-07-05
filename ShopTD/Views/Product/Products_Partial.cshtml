@@ -1,0 +1,26 @@
+﻿@using ShopTD.Models
+@model List<Product>
+
+@{ 
+    var i = 1;
+}
+@foreach(var item in Model)
+{
+    <div class="card text-center d-inline-flex mr-4" style="width: 210px;">
+        <a href="#"><img src="@item.Image" class="card-img-top" style="width: 100%" /></a>
+        <div class="card-body" style="background: #F3F2F2">
+            <a class="card-title">@item.Name</a>
+            <p class="card-text"><span>@item.Price </span>VNĐ</p>
+            <div>
+                <a class="btn btn-warning mr-3" data-toggle="tooltip" title="Thêm Vào Giỏ Hàng"><i class="fa fa-shopping-cart"></i></a>
+                <a class="btn btn-warning ml-3" data-toggle="tooltip" title="Mua Hàng"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </div>
+    if (i%4 == 0)
+    {
+        <div class="clearfix"></div><br /><br />
+    }
+    i++;
+}
+

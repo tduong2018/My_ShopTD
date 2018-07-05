@@ -1,6 +1,35 @@
-﻿<nav class="bg-dark">
-    <ul class="nav menu">
+﻿<nav class="bg-dark ">
+    <ul class="nav menu justify-content-end">
         @Html.Action("Parents_menu_Partial", "Menu")
     </ul>
 </nav>
+<div class="col-12 row">
+    <div class="col-3">
+        <div style="width: 25%" class="position-fixed">
+            <ul class="list-group bg-success">
+                <li class="navbar-nav ml-2 text-light text-center"><h6>Lọc Sản Phẩm</h6></li>
+                <li class="list-group-item list-group-item-action bg-light"><a href="#" class="nav-link"><i class="fa fa-chevron-right"></i>&ensp;Gioi tinh</a></li>
+                <li class="list-group-item list-group-item-action bg-light"><a href="#" class="nav-link"><i class="fa fa-chevron-right"></i>&ensp;Tên Sản Phẩm</a></li>
+                <li class="list-group-item list-group-item-action dropdown bg-light">
+                    <a href="#" class="nav-link" data-toggle="dropdown"><i class="fa fa-chevron-right"></i>&ensp;Thuong hiệu</a>
+                    <ul class="dropdown-menu" style="position: relative">
+                        <li class="nav"><a href="#" class="nav-link"><i class="fa fa-long-arrow-right"></i>&ensp;Mabu</a></li>
+                        <li class="nav"><a href="#" class="nav-link"><i class="fa fa-long-arrow-right"></i>&ensp;Adachi</a></li>
+                        <li class="nav"><a href="#" class="nav-link"><i class="fa fa-long-arrow-right"></i>&ensp;Nostyle</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item list-group-item-action bg-light"><a href="#" class="nav-link"><i class="fa fa-chevron-right"></i>&ensp;Kich thuoc</a></li>
+                <li class="list-group-item list-group-item-action bg-light"><a href="#" class="nav-link"><i class="fa fa-chevron-right"></i>&ensp;Mau sac</a></li>
+                <li class="navbar-nav bg-white"><a class="btn btn-light float-right">Lọc</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-9">
+        <div style="background: red; width: 100%">
+            <div class="float-right">
+                @Html.Action("Products_Partial", "Product")
+            </div>
+        </div>
+    </div>
+</div>
 

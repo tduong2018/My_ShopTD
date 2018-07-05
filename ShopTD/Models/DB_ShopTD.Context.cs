@@ -26,5 +26,6 @@ namespace ShopTD.Models
         }
     
         public virtual DbSet<Menu> Menus { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
     }
 }

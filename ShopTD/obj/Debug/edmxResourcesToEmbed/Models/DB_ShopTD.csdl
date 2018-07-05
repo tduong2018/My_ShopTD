@@ -11,5 +11,17 @@
   </EntityType>
   <EntityContainer Name="DB_ShopTDEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Menus" EntityType="Self.Menu" />
+    <EntitySet Name="Products" EntityType="DB_ShopTDModel.Product" />
   </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Image" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Describe" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>
