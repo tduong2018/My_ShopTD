@@ -1,0 +1,14 @@
+﻿@model IEnumerable<MyShop.Models.Menu>
+
+<ul class="nav menu">
+    @foreach (var item in Model)
+    {
+        <li class="nav-item">
+            <a href="#" class="nav-link">@item.Name</a>
+            <ul class="nav menu">
+                @await Component.InvokeAsync("subMenu", new { menu_ID = item.MenuId })
+            </ul>
+        </li>
+    }
+</ul>
+

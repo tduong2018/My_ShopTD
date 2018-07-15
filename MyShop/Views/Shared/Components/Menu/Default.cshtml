@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MyShop.Models.Menu>
+
+@foreach (var item in Model.Where(n => n.ParentId == 0))
+{
+    <li class="nav-item">
+        <a href="#" class="nav-link">@item.Name</a>
+        @await Component.InvokeAsync("subMenu", new { menu_ID = item.MenuId })    
+    </li>
+}
