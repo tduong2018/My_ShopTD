@@ -1,0 +1,11 @@
+C:\Users\lopch\source\repos\ShopTD\ShopTD\bin\Debug\netcoreapp2.0\ShopTD.deps.json
+C:\Users\lopch\source\repos\ShopTD\ShopTD\bin\Debug\netcoreapp2.0\ShopTD.runtimeconfig.json
+C:\Users\lopch\source\repos\ShopTD\ShopTD\bin\Debug\netcoreapp2.0\ShopTD.runtimeconfig.dev.json
+C:\Users\lopch\source\repos\ShopTD\ShopTD\bin\Debug\netcoreapp2.0\ShopTD.dll
+C:\Users\lopch\source\repos\ShopTD\ShopTD\obj\Debug\netcoreapp2.0\ShopTD.csprojAssemblyReference.cache
+C:\Users\lopch\source\repos\ShopTD\ShopTD\obj\Debug\netcoreapp2.0\ShopTD.csproj.CoreCompileInputs.cache
+C:\Users\lopch\source\repos\ShopTD\ShopTD\obj\Debug\netcoreapp2.0\ShopTD.AssemblyInfoInputs.cache
+C:\Users\lopch\source\repos\ShopTD\ShopTD\obj\Debug\netcoreapp2.0\ShopTD.AssemblyInfo.cs
+C:\Users\lopch\source\repos\ShopTD\ShopTD\bin\Debug\netcoreapp2.0\ShopTD.pdb
+C:\Users\lopch\source\repos\ShopTD\ShopTD\obj\Debug\netcoreapp2.0\ShopTD.dll
+C:\Users\lopch\source\repos\ShopTD\ShopTD\obj\Debug\netcoreapp2.0\ShopTD.pdb

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyShop</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    </environment>
+    <style>
+        .menu {
+            display: none;
+            width: 200px;
+            background: rgb(22, 239, 213);
+        }
+
+        nav li:hover .menu {
+            display: block;
+            position: absolute;
+        }
+
+        .menu li:hover .menu {
+            display: block;
+            position: absolute;
+        }
+
+        .btn:hover .dropdown-menu {
+            display: block;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    @RenderBody()
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/popper.js/dist/umd/popper.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="~/lib/angular/angular.min.js"></script>
+    </environment>
+</body>
+</html>
